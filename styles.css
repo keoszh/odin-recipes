@@ -4,11 +4,26 @@
     font-family: Helvetica, Arial, sans-serif;
   }
 
-  h1 {
-    background-color: blue;
-    color: orangered;
+  .container {
+    width: 400px;
+    margin: auto;
+    padding: 16px;
   }
 
-  .line {
-    line-height: 1.6;
+  .title {
+    display: block;
+    margin: 10px auto 36px;
+    padding: 16px;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+  }
+
+  .content {
+    display: block;
+    padding: 16px 8px;
+    background-color: rgb(255, 157, 157);
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
   }
